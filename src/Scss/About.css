@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.about_section_one {
+  height: 80vh;
+}
+
+.about_header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 144px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-top: 200px;
+  margin-left: 50px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden;
+}
+
+.about_header_content {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 360;
+  width: 700px;
+  font-size: 1.2em;
+  margin-left: 50px;
+  line-height: 24px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-top: -60px;
+  overflow: hidden;
+}
+
+.about_cta {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 700px;
+  font-size: 1.5em;
+  color: #42A5F5;
+  margin-left: 50px;
+  line-height: 24px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden;
+}
+
+.about_canvas_one {
+  position: absolute;
+  display: cover;
+  width: 970px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-15%, -80%);
+          transform: translate(-15%, -80%);
+}
+
+.about_section_two_header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 64px;
+  letter-spacing: 0.01em;
+  margin-left: 50px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.about_section_two_content {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 360;
+  width: 770px;
+  font-size: 1.2em;
+  margin-left: 50px;
+  line-height: 24px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden;
+}
+/*# sourceMappingURL=About.css.map */

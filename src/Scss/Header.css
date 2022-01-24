@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+}
+
+header .inner-header {
+  position: relative;
+  z-index: 10;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .inner-header .nav-logo {
+  height: 15px;
+  margin-left: 50px;
+}
+
+header .inner-header .menu button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  margin-right: 20px;
+  color: #000000;
+}
+
+header .hamburger-menu {
+  display: none;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+header .hamburger-menu .menu-secondary-background-color {
+  background-color: #3861E0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+header .hamburger-menu .menu-layer {
+  position: relative;
+  background: #ffffff;
+  height: 100%;
+  overflow: hidden;
+}
+
+header .hamburger-menu .menu-layer .menu-image-background {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+header .hamburger-menu .menu-layer .wrapper {
+  position: relative;
+}
+
+header .hamburger-menu .menu-layer .wrapper .menu-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 200px;
+}
+
+header .hamburger-menu .menu-layer .wrapper .menu-links nav {
+  display: block;
+}
+
+header .hamburger-menu .menu-layer .wrapper .menu-links nav ul {
+  padding: 0;
+  color: black;
+  margin-left: 100px;
+}
+
+header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li {
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 6rem;
+  font-weight: bolder;
+  cursor: pointer;
+  height: 135px;
+  overflow: hidden;
+  position: relative;
+  width: 700px;
+}
+
+header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a {
+  position: absolute;
+  text-decoration: none;
+  color: #000000;
+}
+
+header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a:hover {
+  color: #42A5F5;
+}
+
+header .hamburger-menu .menu-layer .wrapper .menu-links .info {
+  width: 800px;
+}
+
+header .hamburger-menu .menu-layer .wrapper .menu-links .info h3 {
+  font-size: 1.2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 8px auto;
+  color: #000000;
+}
+
+header .hamburger-menu .menu-layer .wrapper .menu-links .info p {
+  margin-right: 400px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.8rem;
+  width: 300px;
+  color: #000000;
+}
+
+header .hamburger-menu .menu-layer .wrapper .samples {
+  position: absolute;
+  bottom: -80px;
+  margin-top: 16px;
+  margin-left: 100px;
+  font-size: 1rem;
+  font-weight: 800px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #000000;
+}
+
+header .hamburger-menu .menu-layer .wrapper .samples span {
+  cursor: pointer;
+  margin: 0 32px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+header .hamburger-menu .menu-layer .wrapper .samples span:first-child {
+  margin-left: 64px;
+}
+
+header .hamburger-menu .menu-layer .wrapper .samples span:hover {
+  color: #ffffff;
+  background: #3861E0;
+  padding: 8px 24px;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ws_section_one {
+  height: 100vh;
+}
+
+.ws_canvas_one {
+  position: absolute;
+  display: cover;
+  width: 1150px;
+  height: 1200px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-14%, -30%);
+          transform: translate(-14%, -30%);
+}
+
+.ws_header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 144px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-top: 100px;
+  margin-left: 50px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden;
+}
+
+.ws_heading_info {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 360;
+  width: 700px;
+  font-size: 1.2em;
+  margin-left: 50px;
+  line-height: 24px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-top: -50px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=Workingspace.css.map */

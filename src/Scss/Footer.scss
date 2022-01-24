@@ -1,0 +1,127 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.footer_container{
+    height: 100vh;
+    background-color: #42A5F5;
+}
+
+.footer_canvas{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.footer_logo{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.11em;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+.social_handles{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -270%);
+    margin-left: 30px;
+  
+}
+.social_header{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    user-select: none;
+}
+
+.social_name{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    margin-left: 30px;
+}
+
+.footer_contact{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(28%, -700%);
+    margin-left: 30px;
+}
+.number{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 24px;
+    width: 300px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    user-select: none;
+    text-align: right;
+    margin-top: 20px;
+}
+.email{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 24px;
+    width: 300px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    user-select: none;
+    text-align: right;
+    margin-top: 20px;
+}
+.contact_header{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    user-select: none;
+    text-align: right;
+    width: 300px;
+}
+.rights{
+    font-family: 'Josefin Sans', sans-serif;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.11em;
+}
+
+.list{
+    list-style: none;
+    margin-top: 50px;
+    user-select: none;
+}
+
+a{
+    text-decoration: none;
+}
